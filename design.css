@@ -10,32 +10,41 @@
 .calculator{
     padding: 20px;
     border-radius: 10px;
-    background: #3a4452;
+    background: black;
 }
 
-.calculator form input{
+.button{
     border: 0;
     outline: 0;
     width: 60px;
     height: 60px;
-    border-radius: 10px;
-    background-color: black;
+    border-radius: 50px;
+    background-color: #404040;
     color: white;
+    margin: 5px 5px;
+    font-weight: bolder;
+    font-size: larger;
 }
 
 form .display{
     display: flex;
     justify-content: flex-end;
     margin: 20px 0;
+    
 }
 
 form .display input{
     text-align: right;
-    flex: 1;
-    font-size: 45px;
+    font-size: 20px;
     box-shadow: none;
+    padding: 20px;
+    margin: 1px;
+    background-color: black;
+    color: white;
+    border: none;
+    
 }
 
-form input.equal{
-    width: 145px;
+.equal{
+    width: 135px;
 }
